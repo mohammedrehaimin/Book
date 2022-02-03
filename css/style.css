@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+body {
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+header {
+    width: 100%;
+    min-height: 75px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    background-color: #063547;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h3 {
+    display: inline;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+li {
+    display: inline;
+    max-width: 100%;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    width: 60%;
+}
+
+form {
+    min-width: 100px;
+    max-width: 100%;
+    padding: 0 20px;
+    position: relative;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 1.05em;
+}
+
+ion-icon {
+    position: absolute;
+    right: 18px;
+    top: -2px;
+    font-size: 3em;
+    color: #47B99E;
+}
+
+.icon-link {
+    color: #47B99E;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
