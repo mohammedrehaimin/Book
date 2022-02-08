@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <title>Book</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+
     <!-- START HEADER -->
     <header class="flex">
         <a href="#">
@@ -30,19 +32,25 @@
         </nav>
     </header>
     <!-- END HEADER -->
+
     <!-- START MAIN -->
     <main>
+
+        <!-- START SLIDER SECTION -->
         <section class="slider flex">
-            <div class="slider-text">
+            <div class="slider-text width-560px">
                 <h2>Bostorek Bookstore</h2>
                 <h3>For All Your<br>Reading Needs</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quam velit saepe dolorem deserunt quo quidem ad optio.</p>
                 <a href="#"><button type="button">Read More</button></a>
             </div>
-            <img src="images/slider-img.png" alt="image de livres">
+            <img src="images/slider-img.png" alt="image de livres" class="width-560px">
         </section>
+        <!-- END SLIDER SECTION -->
+
+        <!-- START CATREGORIES SECTION -->
         <section class="categories">
-            <div class="intro">
+            <div>
                 <h2>Books Categories</h2>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
                 </p>
@@ -92,73 +100,77 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div>
-                <img src="images/about-img.png" alt="Image de librairie" width="300">
+        <!-- END CATEGORIES SECTION -->
+
+        <!-- START ABOUT SECTION -->
+        <section class="about flex">
+            <img src="images/about-img.png" alt="Image de librairie" class="width-560px">
+            <div class="width-560px">
                 <h2>About Our Bookstore</h2>
                 <p>At cumque tenetur iste molestiae, vel eum reiciendis assumenda! Numquam, repudiandae. Consequuntur obcaecati recusandae aliquam, amet doloribus eius dolores officiis cumque? Quibusdam praesentium pariatur sapiente mollitia, amet hic iusto
                     voluptas! Iusto quo earum vitae excepturi, ipsam aliquid deleniti assumenda culpa deserunt.</p>
                 <a href="#"><button type="button">Read More</button></a>
             </div>
+        </section>
+        <!-- END ABOUT SECTION -->
+
+        <!-- START CUSTOMER SECTION -->
+        <section class="customers">
             <h2>What Says Customers</h2>
-            <p>Editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by</p>
-            <div>
-                <table>
-                    <tr>
-                        <td>
-                            <img src="images/c1.jpg" alt="Photo de Jone Mark" width="150">
-                        </td>
-                        <td>
-                            <b>Jone Mark</b><br> Student
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <div>
-                <p>Editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by</p>
-                <table>
-                    <tr>
-                        <td>
-                            <img src="images/c2.jpg" alt="Photo d'Anna Crowe" width="150">
-                        </td>
-                        <td>
-                            <b>Anna Crowe</b><br> Student
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <div>
-                <p>Editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by</p>
-                <table>
-                    <tr>
-                        <td>
-                            <img src="images/c3.jpg" alt="Photo de Hilley James" width="150">
-                        </td>
-                        <td>
-                            <b>Hilley James</b><br> Student
-                        </td>
-                    </tr>
-                </table>
+            <div class="customers-container">
+                <div>
+                    <p>Editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by <i class="fa fa-quote-left"></i></p>
+                    <div class="customer">
+                        <img src="images/c1.jpg" alt="Photo de Jone Mark">
+                        <p><span>Jone Mark</span><br>Student</p>
+                    </div>
+                </div>
+                <div>
+                    <p>Editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by <i class="fa fa-quote-left"></i></p>
+                    <div class="customer">
+                        <img src="images/c2.jpg" alt="Photo d'Anna Crowe">
+                        <p><span>Anna Crowe</span><br>Student</p>
+                    </div>
+                </div>
+                <div>
+                    <p>Editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by<i class="fa fa-quote-left"></i></p>
+                    <div class="customer">
+                        <img src="images/c3.jpg" alt="Photo de Hilley James">
+                        <p><span>Hilley James</span><br>Student</p>
+                    </div>
+                </div>
             </div>
         </section>
-        <section>
+        <!-- END CUSTOMER SECTION -->
+
+        <!-- START BLOG SECTION -->
+        <section class="blog">
             <h2>From Our Blog</h2>
-            <article>
-                <img src="images/b1.jpg" alt="Image de livres" width="300">
-                <p>19 january 2021</p>
-                <h3>Eius, dolor? Vel velit sed doloremque</h3>
-                <p>Incidunt magni explicabo ullam ipsa quo consequuntur eveniet illo? Aspernatur nam dolorem a neque? Esse eaque dolores hic debitis cupiditate, ad beatae voluptatem numquam dignissimos ab porro</p>
-                <a href="#">Read More</a>
-            </article>
-            <article>
-                <img src="images/b2.jpg" alt="Image de livres" width="300">
-                <p>19 january 2021</p>
-                <h3>Minus aliquid alias porro iure fuga</h3>
-                <p>Officiis veritatis id illo eligendi repellat facilis animi adipisci praesentium. Tempore ab provident porro illo ex obcaecati deleniti enim sequi voluptas at. Harum veniam eos nisi distinctio! Porro, reiciendis eius.</p>
-                <a href="#">Read More</a>
-            </article>
+            <div class="flex">
+                <article class="width-560px">
+                    <img src="images/b1.jpg" alt="Image de livres" class="width-560px">
+                    <p class="date">19 january 2021</p>
+                    <div>
+                        <h3>Eius, dolor? Vel velit sed doloremque</h3>
+                        <p>Incidunt magni explicabo ullam ipsa quo consequuntur eveniet illo? Aspernatur nam dolorem a neque? Esse eaque dolores hic debitis cupiditate, ad beatae voluptatem numquam dignissimos ab porro</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </article>
+                <article class="width-560px">
+                    <img src="images/b2.jpg" alt="Image de livres" class="width-560px">
+                    <p class="date">19 january 2021</p>
+                    <div>
+                        <h3>Minus aliquid alias porro iure fuga</h3>
+                        <p>Officiis veritatis id illo eligendi repellat facilis animi adipisci praesentium. Tempore ab provident porro illo ex obcaecati deleniti enim sequi voluptas at. Harum veniam eos nisi distinctio! Porro, reiciendis eius.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </article>
+            </div>
         </section>
-        <section>
+        <!-- END BLOG SECTION -->
+
+        <!-- START CONTACT SECTION -->
+        <section class="contact">
             <h2>Contact Us</h2>
             <form action="">
                 <input type="text" id="name" placeholder="Name"><br>
@@ -169,44 +181,54 @@
             </form>
             <img src="images/contact-img.png" alt="Image de divers catégories de livres" width="300">
         </section>
+        <!-- END CONTACT SECTION -->
+
     </main>
     <!-- END MAIN -->
+
     <!-- START FOOTER -->
     <footer>
-        <div>
-            <h3>About Us</h3>
-            <p>Vitae aut explicabo fugit facere alias distinctio, exem commodi mollitia minusem dignissimos atque asperiores incidunt vel voluptate iste</p>
+        <div class="footer">
+            <div>
+                <h3>About Us</h3>
+                <p>Vitae aut explicabo fugit facere alias distinctio, exem commodi mollitia minusem dignissimos atque asperiores incidunt vel voluptate iste</p>
+            </div>
+            <div>
+                <h3>Address</h3>
+                <ul>
+                    <li>
+                        <a href="#">Location</a><br>
+                    </li>
+                    <li>
+                        <a href="tel:1234567890">Call +01 1234567890</a><br>
+                    </li>
+                    <li>
+                        <a href="mailto:demo@gmail.com">demo@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Newsletter</h3>
+                <form action="">
+                    <input type="email" id="email" placeholder="Enter email"><br>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13293.394882147826!2d-7.6214315624965305!3d33.5962553651105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d3731f922c01%3A0x5e46c1e1fc83142d!2s3W%20Academy%20Maroc!5e0!3m2!1sfr!2sma!4v1642173045623!5m2!1sfr!2sma"
+                    width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
         </div>
-        <div>
-            <h3>Address</h3>
-            <ul>
-                <li>
-                    <a href="#">Location</a><br>
-                </li>
-                <li>
-                    <a href="tel:1234567890">Call +01 1234567890</a><br>
-                </li>
-                <li>
-                    <a href="mailto:demo@gmail.com">demo@gmail.com</a>
-                </li>
-            </ul>
-        </div>
-        <div>
-            <h3>Newsletter</h3>
-            <form action="">
-                <input type="email" id="email" placeholder="Enter email"><br>
-                <button type="submit">Subscribe</button>
-            </form>
-        </div>
-        <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13293.394882147826!2d-7.6214315624965305!3d33.5962553651105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d3731f922c01%3A0x5e46c1e1fc83142d!2s3W%20Academy%20Maroc!5e0!3m2!1sfr!2sma!4v1642173045623!5m2!1sfr!2sma"
-                width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="copyright">
+            <p>&copy; 2022 All Rights Reserved By Free Html Templates</p>
         </div>
     </footer>
     <!-- START FOOTER -->
-    &copy; 2022 All Rights Reserved By Free Html Templates
+
+    <!-- SCRIPT FOR ICONS -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
 
 </html>

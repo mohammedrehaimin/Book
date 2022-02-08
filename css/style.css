@@ -8,6 +8,10 @@ body {
     margin: 0;
 }
 
+p {
+    line-height: 25px;
+}
+
 section {
     padding: 100px;
 }
@@ -26,6 +30,14 @@ button {
     border-radius: 30px;
     font-size: 1.1em;
     border: none;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.width-560px {
+    width: 560px;
 }
 
 
@@ -87,11 +99,6 @@ ion-icon {
     background-color: #F5F6F9;
 }
 
-.slider-text,
-.slider img {
-    width: 550px;
-}
-
 .slider-text h2 {
     color: #47B99E;
     font-size: 1.3em;
@@ -106,10 +113,6 @@ ion-icon {
 
 .categories {
     text-align: center;
-}
-
-.intro h2 {
-    font-size: 2em;
 }
 
 .categorie {
@@ -131,4 +134,90 @@ ion-icon {
     justify-content: center;
     align-items: center;
     margin: auto;
+}
+
+
+/* ----------------------Customers Style------------------------- */
+
+.customers p:nth-child(1) {
+    max-width: 560px;
+    background-color: #063547;
+    color: #fff;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.customers img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.customers i {
+    font-size: 1.5em;
+    display: block;
+    color: #47B99E;
+    margin-top: 20px;
+}
+
+.customers span {
+    font-size: 1.2em;
+    font-weight: 700px;
+}
+
+.customer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.customers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/* ----------------------Blog Style------------------------- */
+
+.blog {
+    margin: auto;
+    background-color: #F5F6F9;
+}
+
+.blog h2,
+.customers h2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+article {
+    box-sizing: content-box;
+    background-color: #fff;
+    height: 660px;
+    box-shadow: 0 0.5px 15px rgba(140, 140, 140, 0.9);
+    position: relative;
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+
+.date {
+    padding: 10px 25px;
+    background-color: #063547;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    font-size: 1.1em;
+    position: absolute;
+    left: 25px;
+    top: 370px;
+}
+
+article div {
+    padding: 20px;
+}
+
+article a {
+    color: #47B99E;
 }
