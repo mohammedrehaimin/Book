@@ -152,7 +152,7 @@ header ion-icon {
 
 /* ----------------------Customers Style------------------------- */
 
-.customers p:nth-child(1) {
+.customer-text {
     max-width: 550px;
     background-color: #063547;
     color: #fff;
