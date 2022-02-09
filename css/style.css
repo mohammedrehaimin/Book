@@ -68,7 +68,7 @@ nav li {
     padding: 0 25px;
 }
 
-form {
+header form {
     min-width: 100px;
     max-width: 35%;
     height: 42px;
@@ -76,7 +76,8 @@ form {
     right: 0;
 }
 
-input {
+input,
+textarea {
     max-width: 100%;
     height: 100%;
     border-radius: 30px;
@@ -84,7 +85,7 @@ input {
     padding-left: 15px;
 }
 
-ion-icon {
+header ion-icon {
     position: absolute;
     right: 3px;
     top: -2px;
@@ -193,7 +194,6 @@ ion-icon {
 }
 
 article {
-    box-sizing: content-box;
     background-color: #fff;
     height: 660px;
     box-shadow: 0 0.5px 15px rgba(140, 140, 140, 0.9);
@@ -220,4 +220,89 @@ article div {
 
 article a {
     color: #47B99E;
+}
+
+
+/* ----------------------Contact Style------------------------- */
+
+.contact form {
+    width: 100%;
+}
+
+.contact form * {
+    width: 90%;
+    outline: none;
+    border: none;
+    margin: 15px 0;
+    height: 50px;
+}
+
+.contact input,
+.contact textarea {
+    background-color: #F1F1F1;
+}
+
+.contact textarea {
+    height: 125px;
+}
+
+
+/* ----------------------Footer Style------------------------- */
+
+footer .flex {
+    background-color: #063547;
+    color: #fff;
+    padding: 0 100px;
+}
+
+footer .flex div {
+    width: 22%;
+    min-height: 265px;
+}
+
+footer h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+footer form * {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+iframe {
+    width: 100%;
+    height: 225px;
+}
+
+.iframe {
+    margin-top: 40px;
+}
+
+.copyright {
+    text-align: center;
+    color: #063547;
+    padding-bottom: 30px;
+}
+
+footer i {
+    text-align: center;
+    color: #063547;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding-top: 8px;
+}
+
+footer a:hover,
+footer i:hover {
+    color: #47B99E;
+}
+
+footer ul {
+    line-height: 30px;
+    list-style: none;
+    padding-left: 0;
 }

@@ -170,16 +170,18 @@
         <!-- END BLOG SECTION -->
 
         <!-- START CONTACT SECTION -->
-        <section class="contact">
-            <h2>Contact Us</h2>
-            <form action="">
-                <input type="text" id="name" placeholder="Name"><br>
-                <input type="email" id="email" placeholder="Email"><br>
-                <input type="tel" id="phone" placeholder="Phone number"><br>
-                <textarea id="message" cols="21" rows="6" placeholder="Message"></textarea><br>
-                <button type="submit">SEND</button>
-            </form>
-            <img src="images/contact-img.png" alt="Image de divers catégories de livres" width="300">
+        <section class="contact flex">
+            <div class="width-560px">
+                <h2>Contact Us</h2>
+                <form>
+                    <input type="text" id="name" placeholder="Name"><br>
+                    <input type="email" id="email" placeholder="Email"><br>
+                    <input type="tel" id="phone" placeholder="Phone number"><br>
+                    <textarea id="message" cols="21" rows="6" placeholder="Message"></textarea><br>
+                    <button type="submit">SEND</button>
+                </form>
+            </div>
+            <img src="images/contact-img.png" alt="Image de divers catégories de livres" class="width-560px">
         </section>
         <!-- END CONTACT SECTION -->
 
@@ -188,22 +190,31 @@
 
     <!-- START FOOTER -->
     <footer>
-        <div class="footer">
+        <div class="flex">
             <div>
                 <h3>About Us</h3>
                 <p>Vitae aut explicabo fugit facere alias distinctio, exem commodi mollitia minusem dignissimos atque asperiores incidunt vel voluptate iste</p>
+                <p>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </p>
             </div>
             <div>
                 <h3>Address</h3>
                 <ul>
                     <li>
-                        <a href="#">Location</a><br>
+                        <a href="#">
+                            <ion-icon name="location"></ion-icon> Location</a><br>
                     </li>
                     <li>
-                        <a href="tel:1234567890">Call +01 1234567890</a><br>
+                        <a href="tel:1234567890">
+                            <ion-icon name="call"></ion-icon> Call +01 1234567890</a><br>
                     </li>
                     <li>
-                        <a href="mailto:demo@gmail.com">demo@gmail.com</a>
+                        <a href="mailto:demo@gmail.com">
+                            <ion-icon name="mail"></ion-icon> demo@gmail.com</a>
                     </li>
                 </ul>
             </div>
@@ -214,9 +225,9 @@
                     <button type="submit">Subscribe</button>
                 </form>
             </div>
-            <div>
+            <div class="iframe">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13293.394882147826!2d-7.6214315624965305!3d33.5962553651105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d3731f922c01%3A0x5e46c1e1fc83142d!2s3W%20Academy%20Maroc!5e0!3m2!1sfr!2sma!4v1642173045623!5m2!1sfr!2sma"
-                    width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
         <div class="copyright">
