@@ -248,6 +248,7 @@ article a {
 
 .contact textarea {
     height: 125px;
+    resize: none;
 }
 
 
