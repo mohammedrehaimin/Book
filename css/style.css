@@ -151,7 +151,7 @@ header ion-icon {
 /* ----------------------Customers Style------------------------- */
 
 .customers p:nth-child(1) {
-    max-width: 560px;
+    max-width: 550px;
     background-color: #063547;
     color: #fff;
     padding: 25px;
