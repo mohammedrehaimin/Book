@@ -46,6 +46,12 @@ h2 {
     width: 560px;
 }
 
+.slider,
+.about,
+.blog {
+    background-color: #F5F6F9;
+}
+
 
 /* ------------------------Header Style -------------------------- */
 
@@ -105,10 +111,6 @@ header ion-icon {
 
 
 /* ------------------------Slider Style-------------------------- */
-
-.slider {
-    background-color: #F5F6F9;
-}
 
 .slider-text h2 {
     color: #47B99E;
@@ -191,11 +193,6 @@ header ion-icon {
 
 
 /* ----------------------Blog Style------------------------- */
-
-.blog {
-    margin: auto;
-    background-color: #F5F6F9;
-}
 
 .blog h2,
 .customers h2 {
