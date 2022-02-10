@@ -24,7 +24,7 @@ section {
 
 .flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -42,8 +42,8 @@ h2 {
     font-size: 2em;
 }
 
-.width-560px {
-    width: 560px;
+.width-550px {
+    width: 550px;
 }
 
 .slider,
